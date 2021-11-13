@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kalendar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="dycalendar.css">
+</head>
+<body>
+<section>
+	<div class="box">
+		<div class="container">
+		<div id="dycalendar"></div>
+		</div>
+	</div>
+</section>
+<script src="dycalendar.js"></script>
+<script>
+	dycalendar.draw({
+		target: '#dycalendar',
+		type: 'month',
+		dayformat: 'full',
+		monthformat: 'full',
+		highlighttargetdate: true,
+		prevnextbutton: 'show',
+	})
+</script>
+</body>
+</html>
