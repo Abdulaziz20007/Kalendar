@@ -73,7 +73,7 @@
         <span id="hour">00</span>:
         <span id="minutes">00</span>:
         <span id="seconds">00</span>
-        <span id="period">AM</span>
+        <span id="period">Kun</span>
       </div>
     </div>
     <!--digital clock end-->
@@ -88,10 +88,10 @@
           hou = now.getHours(),
           min = now.getMinutes(),
           sec = now.getSeconds(),
-          pe = "AM";
+          pe = "Kun";
 
           if(hou >= 12){
-            pe = "PM";
+            pe = "Tun";
           }
           if(hou == 0){
             hou = 12;
